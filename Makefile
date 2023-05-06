@@ -17,7 +17,7 @@ web:
 .PHONY: web
 
 dist-js:
-	env GOOS=js GOARCH=wasm go build -o ./dist/js/focus.wasm ./cmd/main.go
+	env GOOS=js GOARCH=wasm go build -o ./dist/js/ebiten_template.wasm ./cmd/main.go
 	-mkdir -p dist/js
 	cp ${GOROOT}/misc/wasm/wasm_exec.js ${DIST_JS}
 	cp ${RESOURCES_PATH}/deploy/js/index.html ${DIST_JS}
