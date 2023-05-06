@@ -1,2 +1,0 @@
-
-# ebiten_template
