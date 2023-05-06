@@ -6,6 +6,7 @@ import (
 	"github.com/inqizit-public/ebiten_template/internal/app"
 )
 
+// TODO: add mobile deployment
 func init() {
 	// yourgame.Game must implement ebiten.Game interface.
 	// For more details, see
